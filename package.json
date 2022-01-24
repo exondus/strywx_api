@@ -16,17 +16,6 @@
   "bugs": {
     "url": "https://github.com/exondus/strywx_api/issues"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "homepage": "https://github.com/exondus/strywx_api#readme",
   "devDependencies": {
     "husky": "^7.0.4",
